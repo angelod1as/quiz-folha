@@ -1,0 +1,53 @@
+block variables
+	- var months = ['jan','fev','mar','abr','mai','jun','jul','ago','set','out','nov','dez'];
+	- var ENV = (process.env.NODE_EV === 'production' || process.env.NODE_EV === 'staging') ? process.env.NODE_EV : 'development';
+
+<!--#set var="url" value="#{url}"-->
+<!--#set var="cover_date" value="#{publish_date}"-->
+<!--#set var="cover_date_year" value="#{publish_date_year}"-->
+<!--#set var="cover_date_month" value="#{publish_date_month}"-->
+<!--#set var="cover_date_day" value="#{publish_date_day}"-->
+<!--#set var="cover_time" value="#{publish_time}"-->
+<!--#set var="cover_time_hour" value="#{publish_time_hour}"-->
+<!--#set var="cover_time_minute" value="#{publish_time_minute}"-->
+<!--#set var="live_url" value="#{url}"-->
+<!--#set var="section" value="#{section}"-->
+<!--#set var="section_slug" value="#{section_slug}"-->
+<!--#set var="special" value="#{special}"-->
+<!--#set var="special_url" value="#{special_url}"-->
+<!--#set var="chan" value="#{chan}"-->
+<!--#set var="image" value="#{image_social}"-->
+<!--#set var="kicker" value="#{kicker}"-->
+<!--#set var="kicker_link" value="#{kicker_link}"-->
+<!--#set var="title" value="#{title}"-->
+<!--#set var="lead" value="#{lead}"-->
+<!--#set var="update_date" value="#{update_date}"-->
+<!--#set var="update_date_year" value="#{update_date_year}"-->
+<!--#set var="update_date_month" value="#{update_date_month}"-->
+<!--#set var="update_date_day" value="#{update_date_day}"-->
+<!--#set var="update_time" value="#{update_time}"-->
+<!--#set var="update_time_hour" value="#{update_time_hour}"-->
+<!--#set var="update_time_minute" value="#{update_time_minute}"-->
+<!--#set var="credit" value="#{credit}"-->
+<!--#set var="origin" value="#{origin}"-->
+<!--#set var="show_ads" value="true"-->
+<!--#set var="show_header_folha" value="true"-->
+<!--#set var="show_header_news" value="true"-->
+<!--#set var="show_title_header" value="true"-->
+//#include virtual="/virtual/3.0/arte/script-app.inc"
+
+doctype html
+html(lang="pt-br")
+	head(prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#")
+		meta(charset='UTF-8')
+		meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
+		meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+		//#include virtual="/virtual/3.0/arte/head__embed_head.inc"
+
+	body.f-graphic
+		.folha-loader
+			.folha-loader__container
+				img(src='//arte.folha.uol.com.br/library/folhastyle/3.0/images/loading.gif', alt='Imagem de carregamento')
+
+		block content
+		//#include virtual="/virtual/3.0/arte/footer__script-resize.inc"
