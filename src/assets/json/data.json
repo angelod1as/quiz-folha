@@ -90,6 +90,1070 @@ data({
 			"two": 5,
 			"group": 4,
 			"kids": 0
+		},
+		{
+			"name": "Bovinu's (DATAFOLHA)",
+			"formality": 2,
+			"two": 2,
+			"group": 5,
+			"kids": 5
+		},
+		{
+			"name": "DOM",
+			"formality": 5,
+			"two": 5,
+			"group": 2,
+			"kids": 1
+		},
+		{
+			"name": "Fasano",
+			"formality": 5,
+			"two": 5,
+			"group": 2,
+			"kids": 1
+		},
+		{
+			"name": "A Bela Sintra",
+			"formality": 5,
+			"two": 5,
+			"group": 2,
+			"kids": 1
+		},
+		{
+			"name": "Rubaiyat",
+			"formality": 4,
+			"two": 4,
+			"group": 3,
+			"kids": 2
+		},
+		{
+			"name": "Kinoshita",
+			"formality": 4,
+			"two": 4,
+			"group": 2,
+			"kids": 3
+		},
+		{
+			"name": "Arturito",
+			"formality": 3,
+			"two": 4,
+			"group": 2,
+			"kids": 4
+		},
+		{
+			"name": "Gero",
+			"formality": 4,
+			"two": 4,
+			"group": 3,
+			"kids": 2
+		},
+		{
+			"name": "Frida & Mina",
+			"formality": 1,
+			"two": 2,
+			"group": 5,
+			"kids": 5
+		},
+		{
+			"name": "Padaria da Esquina",
+			"formality": 3,
+			"two": 3,
+			"group": 2,
+			"kids": 5
+		},
+		{
+			"name": "Trattoria",
+			"formality": 4,
+			"two": 4,
+			"group": 3,
+			"kids": 2
+		},
+		{
+			"name": "Evvai",
+			"formality": 4,
+			"two": 5,
+			"group": 2,
+			"kids": 1
+		},
+		{
+			"name": "Tordesilhas",
+			"formality": 3,
+			"two": 3,
+			"group": 3,
+			"kids": 3
+		},
+		{
+			"name": "Alfama dos Marinheiros",
+			"formality": 3,
+			"two": 2,
+			"group": 4,
+			"kids": 3
+		},
+		{
+			"name": "Bráz",
+			"formality": 2,
+			"two": 2,
+			"group": 4,
+			"kids": 4
+		},
+		{
+			"name": "1900",
+			"formality": 2,
+			"two": 2,
+			"group": 4,
+			"kids": 4
+		},
+		{
+			"name": "Camelo",
+			"formality": 3,
+			"two": 3,
+			"group": 3,
+			"kids": 3
+		},
+		{
+			"name": "Ráscal",
+			"formality": 2,
+			"two": 2,
+			"group": 4,
+			"kids": 4
+		},
+		{
+			"name": "Tuju",
+			"formality": 4,
+			"two": 5,
+			"group": 2,
+			"kids": 1
+		},
+		{
+			"name": "Madero",
+			"formality": 2,
+			"two": 2,
+			"group": 4,
+			"kids": 4
+		},
+		{
+			"name": "Outback",
+			"formality": 2,
+			"two": 2,
+			"group": 4,
+			"kids": 4
+		},
+		{
+			"name": "Skye",
+			"formality": 4,
+			"two": 5,
+			"group": 3,
+			"kids": 0
+		},
+		{
+			"name": "Bracia Parrilla (DATAFOLHA)",
+			"formality": 3,
+			"two": 3,
+			"group": 3,
+			"kids": 3
+		},
+		{
+			"name": "Terraço Itália",
+			"formality": 5,
+			"two": 5,
+			"group": 2,
+			"kids": 0
+		},
+		{
+			"name": "Rodeio",
+			"formality": 3,
+			"two": 3,
+			"group": 3,
+			"kids": 3
+		},
+		{
+			"name": "Varanda",
+			"formality": 3,
+			"two": 3,
+			"group": 3,
+			"kids": 3
+		},
+		{
+			"name": "Tenda do Nilo",
+			"formality": 1,
+			"two": 1,
+			"group": 5,
+			"kids": 5
+		},
+		{
+			"name": "Padoca do Maní",
+			"formality": 2,
+			"two": 3,
+			"group": 3,
+			"kids": 4
+		},
+		{
+			"name": "Futuro Refeitório",
+			"formality": 1,
+			"two": 1,
+			"group": 5,
+			"kids": 5
+		},
+		{
+			"name": "Bacio di Latte",
+			"formality": 1,
+			"two": 1,
+			"group": 5,
+			"kids": 5
+		},
+		{
+			"name": "Ici Bistrô",
+			"formality": 3,
+			"two": 4,
+			"group": 2,
+			"kids": 2
+		},
+		{
+			"name": "Ritz",
+			"formality": 2,
+			"two": 2,
+			"group": 4,
+			"kids": 3
+		},
+		{
+			"name": "Almanara",
+			"formality": 3,
+			"two": 3,
+			"group": 3,
+			"kids": 2
+		},
+		{
+			"name": "Angélica Grill (DATAFOLHA)",
+			"formality": 2,
+			"two": 2,
+			"group": 4,
+			"kids": 3
+		},
+		{
+			"name": "Arcos da Cantareira (DATAFOLHA)",
+			"formality": 2,
+			"two": 2,
+			"group": 5,
+			"kids": 2
+		},
+		{
+			"name": "Costellone (DATAFOLHA)",
+			"formality": 2,
+			"two": 2,
+			"group": 4,
+			"kids": 3
+		},
+		{
+			"name": "Attimo",
+			"formality": 3,
+			"two": 4,
+			"group": 2,
+			"kids": 2
+		},
+		{
+			"name": "Nagayama",
+			"formality": 3,
+			"two": 4,
+			"group": 2,
+			"kids": 2
+		},
+		{
+			"name": "Kaá",
+			"formality": 3,
+			"two": 4,
+			"group": 2,
+			"kids": 2
+		},
+		{
+			"name": "Mori Ohta",
+			"formality": 3,
+			"two": 4,
+			"group": 2,
+			"kids": 2
+		},
+		{
+			"name": "Jun Sakamoto",
+			"formality": 5,
+			"two": 4,
+			"group": 1,
+			"kids": 1
+		},
+		{
+			"name": "Coffee Lab",
+			"formality": 1,
+			"two": 3,
+			"group": 3,
+			"kids": 4
+		},
+		{
+			"name": "La Guapa",
+			"formality": 1,
+			"two": 2,
+			"group": 3,
+			"kids": 5
+		},
+		{
+			"name": "Pizza Hut",
+			"formality": 0,
+			"two": 1,
+			"group": 5,
+			"kids": 5
+		},
+		{
+			"name": "Divino fogão",
+			"formality": 0,
+			"two": 1,
+			"group": 5,
+			"kids": 5
+		},
+		{
+			"name": "Espírito Santo",
+			"formality": 3,
+			"two": 2,
+			"group": 4,
+			"kids": 2
+		},
+		{
+			"name": "Nino Cucina",
+			"formality": 3,
+			"two": 4,
+			"group": 2,
+			"kids": 1
+		},
+		{
+			"name": "Aizomê",
+			"formality": 4,
+			"two": 4,
+			"group": 1,
+			"kids": 1
+		},
+		{
+			"name": "Tasca da Esquina",
+			"formality": 3,
+			"two": 3,
+			"group": 2,
+			"kids": 2
+		},
+		{
+			"name": "Ora, Pois!",
+			"formality": 2,
+			"two": 3,
+			"group": 2,
+			"kids": 3
+		},
+		{
+			"name": "Arabia",
+			"formality": 2,
+			"two": 3,
+			"group": 3,
+			"kids": 2
+		},
+		{
+			"name": "Due Cuochi Cucina",
+			"formality": 3,
+			"two": 3,
+			"group": 2,
+			"kids": 2
+		},
+		{
+			"name": "Bolinha",
+			"formality": 3,
+			"two": 1,
+			"group": 4,
+			"kids": 2
+		},
+		{
+			"name": "Macedo's (DATAFOLHA)",
+			"formality": 2,
+			"two": 2,
+			"group": 4,
+			"kids": 2
+		},
+		{
+			"name": "Lanchonete da cidade",
+			"formality": 2,
+			"two": 1,
+			"group": 4,
+			"kids": 3
+		},
+		{
+			"name": "Leona (DATAFOLHA)",
+			"formality": 2,
+			"two": 2,
+			"group": 4,
+			"kids": 2
+		},
+		{
+			"name": "Espetinho, Cerveja e Cia (DATAFOLHA)",
+			"formality": 1,
+			"two": 1,
+			"group": 5,
+			"kids": 3
+		},
+		{
+			"name": "Speranza (DATAFOLHA)",
+			"formality": 2,
+			"two": 3,
+			"group": 3,
+			"kids": 2
+		},
+		{
+			"name": "Le Vin",
+			"formality": 3,
+			"two": 4,
+			"group": 2,
+			"kids": 1
+		},
+		{
+			"name": "Frank",
+			"formality": 4,
+			"two": 4,
+			"group": 2,
+			"kids": 0
+		},
+		{
+			"name": "Chou",
+			"formality": 2,
+			"two": 5,
+			"group": 2,
+			"kids": 1
+		},
+		{
+			"name": "La Casserole",
+			"formality": 3,
+			"two": 4,
+			"group": 1,
+			"kids": 2
+		},
+		{
+			"name": "Cacilda (DATAFOLHA)",
+			"formality": 2,
+			"two": 2,
+			"group": 3,
+			"kids": 3
+		},
+		{
+			"name": "Maria Lima (DATAFOLHA)",
+			"formality": 2,
+			"two": 2,
+			"group": 3,
+			"kids": 3
+		},
+		{
+			"name": "Roma (DATAFOLHA)",
+			"formality": 3,
+			"two": 3,
+			"group": 2,
+			"kids": 2
+		},
+		{
+			"name": "Mercearia do francês (DATAFOLHA)",
+			"formality": 2,
+			"two": 3,
+			"group": 3,
+			"kids": 2
+		},
+		{
+			"name": "Consulado Mineiro",
+			"formality": 1,
+			"two": 1,
+			"group": 3,
+			"kids": 4
+		},
+		{
+			"name": "Jiquitaia",
+			"formality": 2,
+			"two": 2,
+			"group": 3,
+			"kids": 2
+		},
+		{
+			"name": "Presidente",
+			"formality": 2,
+			"two": 2,
+			"group": 3,
+			"kids": 2
+		},
+		{
+			"name": "Carlos Pizza",
+			"formality": 2,
+			"two": 3,
+			"group": 3,
+			"kids": 1
+		},
+		{
+			"name": "Baru",
+			"formality": 2,
+			"two": 3,
+			"group": 3,
+			"kids": 1
+		},
+		{
+			"name": "Quincho ",
+			"formality": 1,
+			"two": 3,
+			"group": 3,
+			"kids": 2
+		},
+		{
+			"name": "Petí",
+			"formality": 2,
+			"two": 3,
+			"group": 2,
+			"kids": 2
+		},
+		{
+			"name": "Paris 6",
+			"formality": 3,
+			"two": 3,
+			"group": 2,
+			"kids": 1
+		},
+		{
+			"name": "Spot",
+			"formality": 2,
+			"two": 3,
+			"group": 3,
+			"kids": 1
+		},
+		{
+			"name": "Peru's (DATAFOLHA)",
+			"formality": 1,
+			"two": 1,
+			"group": 5,
+			"kids": 2
+		},
+		{
+			"name": "Don Pepe di Napoli (DATAFOLHA)",
+			"formality": 2,
+			"two": 3,
+			"group": 2,
+			"kids": 2
+		},
+		{
+			"name": "Bar da Dona Onça",
+			"formality": 3,
+			"two": 2,
+			"group": 3,
+			"kids": 1
+		},
+		{
+			"name": "Le Jazz",
+			"formality": 3,
+			"two": 4,
+			"group": 1,
+			"kids": 1
+		},
+		{
+			"name": "Casa de Francisca",
+			"formality": 2,
+			"two": 5,
+			"group": 2,
+			"kids": 0
+		},
+		{
+			"name": "Madeleine",
+			"formality": 3,
+			"two": 4,
+			"group": 2,
+			"kids": 0
+		},
+		{
+			"name": "Empório Alto de Pinheiros",
+			"formality": 2,
+			"two": 2,
+			"group": 4,
+			"kids": 1
+		},
+		{
+			"name": "Pitico",
+			"formality": 1,
+			"two": 1,
+			"group": 5,
+			"kids": 2
+		},
+		{
+			"name": "Z Deli",
+			"formality": 1,
+			"two": 1,
+			"group": 3,
+			"kids": 4
+		},
+		{
+			"name": "Mesa III",
+			"formality": 2,
+			"two": 3,
+			"group": 2,
+			"kids": 2
+		},
+		{
+			"name": "Buzina",
+			"formality": 1,
+			"two": 2,
+			"group": 4,
+			"kids": 2
+		},
+		{
+			"name": "Guilhotina",
+			"formality": 2,
+			"two": 2,
+			"group": 5,
+			"kids": 0
+		},
+		{
+			"name": "Goose Island Brewhouse",
+			"formality": 3,
+			"two": 1,
+			"group": 5,
+			"kids": 0
+		},
+		{
+			"name": "Fel",
+			"formality": 3,
+			"two": 4,
+			"group": 2,
+			"kids": 0
+		},
+		{
+			"name": "Jardim de Napoli",
+			"formality": 1,
+			"two": 2,
+			"group": 2,
+			"kids": 4
+		},
+		{
+			"name": "La Peruana",
+			"formality": 2,
+			"two": 2,
+			"group": 3,
+			"kids": 1
+		},
+		{
+			"name": "Astor",
+			"formality": 2,
+			"two": 2,
+			"group": 4,
+			"kids": 0
+		},
+		{
+			"name": "O Compadre (DATAFOLHA)",
+			"formality": 1,
+			"two": 1,
+			"group": 4,
+			"kids": 2
+		},
+		{
+			"name": "Bar do Juarez",
+			"formality": 2,
+			"two": 2,
+			"group": 4,
+			"kids": 0
+		},
+		{
+			"name": "Salve Jorge",
+			"formality": 2,
+			"two": 2,
+			"group": 4,
+			"kids": 0
+		},
+		{
+			"name": "Veloso",
+			"formality": 2,
+			"two": 2,
+			"group": 3,
+			"kids": 1
+		},
+		{
+			"name": "Bar do Nico (DATAFOLHA)",
+			"formality": 2,
+			"two": 1,
+			"group": 4,
+			"kids": 1
+		},
+		{
+			"name": "Bar Mooca (DATAFOLHA)",
+			"formality": 1,
+			"two": 2,
+			"group": 4,
+			"kids": 1
+		},
+		{
+			"name": "Pizzaria São Pedro (DATAFOLHA)",
+			"formality": 2,
+			"two": 2,
+			"group": 2,
+			"kids": 2
+		},
+		{
+			"name": "Frangó",
+			"formality": 2,
+			"two": 2,
+			"group": 3,
+			"kids": 1
+		},
+		{
+			"name": "Blá Bar",
+			"formality": 2,
+			"two": 1,
+			"group": 5,
+			"kids": 0
+		},
+		{
+			"name": "Benzina",
+			"formality": 2,
+			"two": 2,
+			"group": 4,
+			"kids": 0
+		},
+		{
+			"name": "Marília Zylbersztajn",
+			"formality": 2,
+			"two": 1,
+			"group": 2,
+			"kids": 3
+		},
+		{
+			"name": "Drosophyla",
+			"formality": 2,
+			"two": 4,
+			"group": 2,
+			"kids": 0
+		},
+		{
+			"name": "Bar Higienópolis (DATAFOLHA)",
+			"formality": 1,
+			"two": 2,
+			"group": 4,
+			"kids": 1
+		},
+		{
+			"name": "Eu tu eles",
+			"formality": 2,
+			"two": 1,
+			"group": 5,
+			"kids": 0
+		},
+		{
+			"name": "Shin-Zushi",
+			"formality": 4,
+			"two": 3,
+			"group": 1,
+			"kids": 0
+		},
+		{
+			"name": "Guarita",
+			"formality": 2,
+			"two": 2,
+			"group": 4,
+			"kids": 0
+		},
+		{
+			"name": "A Casa do Porco",
+			"formality": 2,
+			"two": 2,
+			"group": 2,
+			"kids": 1
+		},
+		{
+			"name": "Mocotó",
+			"formality": 1,
+			"two": 2,
+			"group": 2,
+			"kids": 2
+		},
+		{
+			"name": "Sainte Marie",
+			"formality": 1,
+			"two": 1,
+			"group": 3,
+			"kids": 2
+		},
+		{
+			"name": "Balaio ",
+			"formality": 2,
+			"two": 2,
+			"group": 2,
+			"kids": 1
+		},
+		{
+			"name": "Komah",
+			"formality": 2,
+			"two": 2,
+			"group": 2,
+			"kids": 1
+		},
+		{
+			"name": "Al Janiah",
+			"formality": 1,
+			"two": 1,
+			"group": 5,
+			"kids": 0
+		},
+		{
+			"name": "Bar Brahma",
+			"formality": 2,
+			"two": 2,
+			"group": 3,
+			"kids": 0
+		},
+		{
+			"name": "Dona Lucinha",
+			"formality": 1,
+			"two": 1,
+			"group": 3,
+			"kids": 2
+		},
+		{
+			"name": "Bar do Luiz Fernandes",
+			"formality": 1,
+			"two": 1,
+			"group": 5,
+			"kids": 0
+		},
+		{
+			"name": "Feijão de Corda (DATAFOLHA)",
+			"formality": 1,
+			"two": 1,
+			"group": 3,
+			"kids": 2
+		},
+		{
+			"name": "Mercearia São Pedro",
+			"formality": 1,
+			"two": 1,
+			"group": 5,
+			"kids": 0
+		},
+		{
+			"name": "Valadares (DATAFOLHA)",
+			"formality": 1,
+			"two": 1,
+			"group": 5,
+			"kids": 0
+		},
+		{
+			"name": "Posto 6 (DATAFOLHA)",
+			"formality": 1,
+			"two": 1,
+			"group": 5,
+			"kids": 0
+		},
+		{
+			"name": "Pompeia Bar (DATAFOLHA)",
+			"formality": 1,
+			"two": 1,
+			"group": 5,
+			"kids": 0
+		},
+		{
+			"name": "Bar da Praça (DATAFOLHA)",
+			"formality": 2,
+			"two": 1,
+			"group": 4,
+			"kids": 0
+		},
+		{
+			"name": "Exquisito!",
+			"formality": 1,
+			"two": 2,
+			"group": 4,
+			"kids": 0
+		},
+		{
+			"name": "Z Carniceria",
+			"formality": 1,
+			"two": 2,
+			"group": 4,
+			"kids": 0
+		},
+		{
+			"name": "Boca de ouro",
+			"formality": 2,
+			"two": 3,
+			"group": 2,
+			"kids": 0
+		},
+		{
+			"name": "Genésio",
+			"formality": 1,
+			"two": 1,
+			"group": 5,
+			"kids": 0
+		},
+		{
+			"name": "SubAstor",
+			"formality": 2,
+			"two": 2,
+			"group": 3,
+			"kids": 0
+		},
+		{
+			"name": "Mandíbula",
+			"formality": 0,
+			"two": 2,
+			"group": 5,
+			"kids": 0
+		},
+		{
+			"name": "Paramount",
+			"formality": 1,
+			"two": 2,
+			"group": 4,
+			"kids": 0
+		},
+		{
+			"name": "Amma",
+			"formality": 2,
+			"two": 1,
+			"group": 1,
+			"kids": 3
+		},
+		{
+			"name": "Ambar",
+			"formality": 2,
+			"two": 2,
+			"group": 3,
+			"kids": 0
+		},
+		{
+			"name": "Lá da venda",
+			"formality": 1,
+			"two": 1,
+			"group": 1,
+			"kids": 4
+		},
+		{
+			"name": "Rota do Acarajé (DATAFOLHA)",
+			"formality": 0,
+			"two": 1,
+			"group": 4,
+			"kids": 2
+		},
+		{
+			"name": "Rex",
+			"formality": 2,
+			"two": 3,
+			"group": 2,
+			"kids": 0
+		},
+		{
+			"name": "Nakombi",
+			"formality": 2,
+			"two": 2,
+			"group": 1,
+			"kids": 2
+		},
+		{
+			"name": "A Baianeira",
+			"formality": 1,
+			"two": 2,
+			"group": 2,
+			"kids": 1
+		},
+		{
+			"name": "The Joy (DATAFOLHA)",
+			"formality": 1,
+			"two": 1,
+			"group": 4,
+			"kids": 0
+		},
+		{
+			"name": "Biroska (DATAFOLHA)",
+			"formality": 1,
+			"two": 1,
+			"group": 4,
+			"kids": 0
+		},
+		{
+			"name": "Ripa na Brasa (DATAFOLHA)",
+			"formality": 1,
+			"two": 1,
+			"group": 3,
+			"kids": 1
+		},
+		{
+			"name": "Mica",
+			"formality": 1,
+			"two": 2,
+			"group": 2,
+			"kids": 1
+		},
+		{
+			"name": "Caos",
+			"formality": 0,
+			"two": 1,
+			"group": 5,
+			"kids": 0
+		},
+		{
+			"name": "Desembargador (DATAFOLHA)",
+			"formality": 1,
+			"two": 1,
+			"group": 4,
+			"kids": 0
+		},
+		{
+			"name": "Bar Léo",
+			"formality": 0,
+			"two": 1,
+			"group": 5,
+			"kids": 0
+		},
+		{
+			"name": "São Cristóvão",
+			"formality": 0,
+			"two": 1,
+			"group": 5,
+			"kids": 0
+		},
+		{
+			"name": "Ponto Chic (DATAFOLHA)",
+			"formality": 1,
+			"two": 1,
+			"group": 2,
+			"kids": 1
+		},
+		{
+			"name": "Atol Bar (DATAFOLHA)",
+			"formality": 1,
+			"two": 1,
+			"group": 3,
+			"kids": 0
+		},
+		{
+			"name": "Estadão",
+			"formality": 0,
+			"two": 1,
+			"group": 4,
+			"kids": 0
+		},
+		{
+			"name": "O pescador (DATAFOLHA)",
+			"formality": 0,
+			"two": 1,
+			"group": 4,
+			"kids": 0
+		},
+		{
+			"name": "Mc'Donald's",
+			"formality": null,
+			"two": null,
+			"group": null,
+			"kids": 5
+		},
+		{
+			"name": "Homa",
+			"formality": 1,
+			"two": 1,
+			"group": 1,
+			"kids": 1
+		},
+		{
+			"name": "Moinho de pedra",
+			"formality": 1,
+			"two": 1,
+			"group": 1,
+			"kids": 1
 		}
 	]
 })

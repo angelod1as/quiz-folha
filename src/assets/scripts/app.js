@@ -33,7 +33,7 @@ export default class App extends Component {
 	}
 
 	render() {
-		const { questions, cogs } = this.state;
+		const { questions, cogs, data } = this.state;
 		const { current, length } = cogs;
 
 		return (
@@ -41,13 +41,18 @@ export default class App extends Component {
 				<div className="title">
 					<h1>Escolha o restaurante</h1>
 				</div>
-				{current < length
-					? <Question
-						currentQuestion={questions[current]}
-						handleNextQuestion={this.handleNextQuestion}
-						handleCheckChange={this.handleCheckChange}
-					/>
-					: <Ending />}
+				{
+					current < length
+						? <Question
+							currentQuestion={questions[current]}
+							handleNextQuestion={this.handleNextQuestion}
+							handleCheckChange={this.handleCheckChange}
+						/>
+						: <Ending
+							data={data}
+							questions={questions}
+						/>
+				}
 			</div>
 		);
 	}
