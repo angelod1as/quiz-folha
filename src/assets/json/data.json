@@ -1,0 +1,95 @@
+data({
+	"restaurants": [
+		{
+			"name": "EXEMPLO 2",
+			"formality": 5,
+			"two": 3,
+			"group": 3,
+			"kids": 2
+		},
+		{
+			"name": "EXEMPLO 1",
+			"formality": 1,
+			"two": 2,
+			"group": 4,
+			"kids": 2
+		},
+		{
+			"name": "Amadeus",
+			"formality": 5,
+			"two": 5,
+			"group": 4,
+			"kids": 4
+		},
+		{
+			"name": "Fogo de Chão",
+			"formality": 3,
+			"two": 3,
+			"group": 4,
+			"kids": 5
+		},
+		{
+			"name": "Confeitaria Dama",
+			"formality": 3,
+			"two": 3,
+			"group": 4,
+			"kids": 5
+		},
+		{
+			"name": "Maní",
+			"formality": 4,
+			"two": 5,
+			"group": 3,
+			"kids": 2
+		},
+		{
+			"name": "A Figueira Rubaiyat",
+			"formality": 4,
+			"two": 3,
+			"group": 4,
+			"kids": 3
+		},
+		{
+			"name": "Coco Bambu",
+			"formality": 2,
+			"two": 3,
+			"group": 5,
+			"kids": 4
+		},
+		{
+			"name": "Famiglia Mancini",
+			"formality": 2,
+			"two": 3,
+			"group": 5,
+			"kids": 4
+		},
+		{
+			"name": "Aoyama",
+			"formality": 2,
+			"two": 3,
+			"group": 4,
+			"kids": 5
+		},
+		{
+			"name": "Varanda",
+			"formality": 3,
+			"two": 3,
+			"group": 3,
+			"kids": 5
+		},
+		{
+			"name": "Mangiare",
+			"formality": 3,
+			"two": 3,
+			"group": 3,
+			"kids": 5
+		},
+		{
+			"name": "Baretto",
+			"formality": 5,
+			"two": 5,
+			"group": 4,
+			"kids": 0
+		}
+	]
+})
