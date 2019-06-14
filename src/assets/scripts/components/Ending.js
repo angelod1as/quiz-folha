@@ -16,38 +16,43 @@ const ListItem = ({ item }) => {
 			{hasIt(item.type) ?
 				<p className="type">{item.type}</p>
 				: ''}
+			<div className="item-container">
+				{hasIt(item.price) ?
+					<p className="price">{'$'.repeat(item.price)}</p>
+					: ''}
 
-			{hasIt(item.price) ?
-				<p className="price">{'$'.repeat(item.price)}</p>
-				: ''}
+				{hasIt(item.stars) ?
+					<p className="stars">{'\u2605'.repeat(item.stars)}</p>
+					: ''}
+			</div>
 
-			{hasIt(item.stars) ?
-				<p className="stars">{'\u2605'.repeat(item.stars)}</p>
-				: ''}
+			<div className="prize-container">
+				{hasIt(item.prize) ?
+					<p className="prize"><span>Prêmios:</span> {item.prize}</p>
+					: ''}
 
-			{hasIt(item.prize) ?
-				<p className="prize">Prêmios: {item.prize}</p>
-				: ''}
+				{hasIt(item.datafolha) ?
+					<p className="datafolha"><span>Prêmios Datafolha:</span> {item.datafolha}</p>
+					: ''}
+			</div>
 
-			{hasIt(item.datafolha) ?
-				<p className="datafolha">Prêmios Datafolha: {item.datafolha}</p>
-				: ''}
+			<div className="quiz-container">
+				{hasIt(item.array[0]) ?
+					<p className="formality"><span>Relação de formalidade:</span> {'\u2606'.repeat(item.array[0])}</p>
+					: ''}
 
-			{hasIt(item.array[0]) ?
-				<p className="formality">Relação de formalidade: {item.array[0]}</p>
-				: ''}
+				{hasIt(item.array[1]) ?
+					<p className="two"><span>Para ir a dois:</span> {'\u2606'.repeat(item.array[1])}</p>
+					: ''}
 
-			{hasIt(item.array[1]) ?
-				<p className="two">Para ir a dois: {item.array[1]}</p>
-				: ''}
+				{hasIt(item.array[2]) ?
+					<p className="group"><span>Para ir em grupo (+ de 6 pessoas):</span> {'\u2606'.repeat(item.array[2])}</p>
+					: ''}
 
-			{hasIt(item.array[2]) ?
-				<p className="group">Para ir em grupo (+ de 6 pessoas): {item.array[2]}</p>
-				: ''}
-
-			{hasIt(item.array[3]) ?
-				<p className="kids">Para ir com criança: {item.array[3]}</p>
-				: ''}
+				{hasIt(item.array[3]) ?
+					<p className="kids"><span>Para ir com criança:</span> {'\u2606'.repeat(item.array[3])}</p>
+					: ''}
+			</div>
 		</div>
 	);
 };
