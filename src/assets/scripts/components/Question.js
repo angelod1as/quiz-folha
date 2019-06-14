@@ -8,10 +8,6 @@ const Question = (props) => {
 	return (
 		<div>
 			<h2>{currentQuestion.question}</h2>
-			{/*
-				If there were other tipes of quiz
-				this "if" would go here
-			*/}
 			<Range
 				from={1}
 				to={5}

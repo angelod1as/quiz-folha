@@ -11,7 +11,16 @@ const ListItem = ({ item }) => {
 
 	return (
 		<div className="restaurant">
-			<div className="name">{item.name}</div>
+			<div className="name">
+				{hasIt(item.link) ?
+					<a
+						href={item.link}
+						target="_blank"
+						rel="noopener noreferrer"
+					>{item.name}
+					</a>
+					: item.name}
+			</div>
 
 			{hasIt(item.type) ?
 				<p className="type">{item.type}</p>
@@ -29,9 +38,19 @@ const ListItem = ({ item }) => {
 
 			<p className="compatibility"><span>{item.percent.toString().replace('.', ',')}%</span> de compatibilidade</p>
 
+			{hasIt(item.photo) ?
+				<figure className="photo">
+					<img src={item.photo} alt={item.name} />
+				</figure>
+				: ''}
+
+			{hasIt(item.desc) ?
+				<p className="desc">{item.desc}</p>
+				: ''}
+
 			<div className="prize-container">
 				{hasIt(item.prize) ?
-					<p className="prize"><span>Prêmios:</span> {item.prize}</p>
+					<p className="prize"><span>Prêmios do Júri:</span> {item.prize}</p>
 					: ''}
 
 				{hasIt(item.datafolha) ?
@@ -67,17 +86,11 @@ const Ending = (props) => {
 
 	const restaurants = data
 		.filter(rest => rest.quiz === 'SIM')
-		.map(rest => (
-			{
-				name: rest.name,
-				type: rest.type,
-				prize: rest.prize,
-				datafolha: rest.datafolha,
-				price: +rest.price,
-				stars: +rest.stars,
-				array: [+rest.formality, +rest.two, +rest.group, +rest.kids],
-			}
-		));
+		.map((rest) => {
+			const ret = rest;
+			ret.array = [+rest.formality, +rest.two, +rest.group, +rest.kids];
+			return ret;
+		});
 
 	const sorted = sortRest(user, restaurants).slice(0, 5);
 
