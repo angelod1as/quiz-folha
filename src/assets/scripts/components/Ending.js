@@ -16,6 +16,7 @@ const ListItem = ({ item }) => {
 			{hasIt(item.type) ?
 				<p className="type">{item.type}</p>
 				: ''}
+
 			<div className="item-container">
 				{hasIt(item.price) ?
 					<p className="price">{'$'.repeat(item.price)}</p>
@@ -25,6 +26,8 @@ const ListItem = ({ item }) => {
 					<p className="stars">{'\u2605'.repeat(item.stars)}</p>
 					: ''}
 			</div>
+
+			<p className="compatibility"><span>{item.percent.toString().replace('.', ',')}%</span> de compatibilidade</p>
 
 			<div className="prize-container">
 				{hasIt(item.prize) ?
