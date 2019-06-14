@@ -7,7 +7,7 @@ const Question = (props) => {
 	const { handleNextQuestion, currentQuestion, handleCheckChange } = props;
 	return (
 		<div>
-			<h1>{currentQuestion.question}</h1>
+			<h2>{currentQuestion.question}</h2>
 			{/*
 				If there were other tipes of quiz
 				this "if" would go here
@@ -19,7 +19,13 @@ const Question = (props) => {
 				checked={currentQuestion.checked}
 				handleCheckChange={handleCheckChange}
 			/>
-			<button onClick={() => handleNextQuestion()}>Próxima!</button>
+			{currentQuestion.checked ?
+				<button
+					className="button"
+					onClick={() => handleNextQuestion()}
+				>Próxima!
+				</button>
+				: ''}
 		</div>
 	);
 };

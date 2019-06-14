@@ -41,18 +41,20 @@ export default class App extends Component {
 				<div className="title">
 					<h1>Escolha o restaurante</h1>
 				</div>
-				{
-					current < length
-						? <Question
-							currentQuestion={questions[current]}
-							handleNextQuestion={this.handleNextQuestion}
-							handleCheckChange={this.handleCheckChange}
-						/>
-						: <Ending
-							data={data}
-							questions={questions}
-						/>
-				}
+				<div className="holder">
+					{
+						current < length
+							? <Question
+								currentQuestion={questions[current]}
+								handleNextQuestion={this.handleNextQuestion}
+								handleCheckChange={this.handleCheckChange}
+							/>
+							: <Ending
+								data={data}
+								questions={questions}
+							/>
+					}
+				</div>
 			</div>
 		);
 	}

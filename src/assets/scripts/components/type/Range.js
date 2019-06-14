@@ -11,7 +11,11 @@ const Range = (props) => {
 	const range = [];
 	for (let i = from; i <= to; i += 1) {
 		range.push((
-			<label key={i} htmlFor={i} >{i}
+			<label
+				key={i}
+				htmlFor={i}
+				className={i === checked ? 'checked' : 'not-checked'}
+			>{i}
 				<input
 					type="radio"
 					id={i}
@@ -23,9 +27,21 @@ const Range = (props) => {
 			</label >
 		));
 	}
+
+	const style = {
+		width: `${(100 / range.length) * (range.length - 1)}%`,
+		left: `${(100 / range.length) / 2}%`,
+	};
+
 	return (
 		<form className="range">
-			{range}
+			<div className="range-inside">
+				{range}
+			</div>
+			<div
+				className="bgline"
+				style={style}
+			/>
 		</form>
 	);
 };

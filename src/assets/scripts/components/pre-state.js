@@ -2,7 +2,7 @@ const preState = data => ({
 	questions: [{
 		id: 1,
 		type: 'number-range',
-		question: '1 - Número de 1 a 5',
+		question: 'Pergunta 1',
 		checked: 0,
 		answers: [{
 			answer: '1', value: '1',
@@ -18,7 +18,7 @@ const preState = data => ({
 	}, {
 		id: 2,
 		type: 'number-range',
-		question: '2 - Número de 1 a 5',
+		question: 'Pergunta 2',
 		checked: 0,
 		answers: [{
 			answer: '1', value: '1',
@@ -34,7 +34,7 @@ const preState = data => ({
 	}, {
 		id: 3,
 		type: 'number-range',
-		question: '3 - Número de 1 a 5',
+		question: 'Pergunta 3',
 		checked: 0,
 		answers: [{
 			answer: '1', value: '1',
@@ -50,7 +50,7 @@ const preState = data => ({
 	}, {
 		id: 4,
 		type: 'number-range',
-		question: '4 - Número de 1 a 5',
+		question: 'Pergunta 4',
 		checked: 0,
 		answers: [{
 			answer: '1', value: '1',

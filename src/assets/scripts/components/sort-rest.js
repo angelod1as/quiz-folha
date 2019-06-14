@@ -6,10 +6,8 @@ const sortRest = (user, restaurantes) => {
 			const diff = 1 + (Math.abs(restArr - user[i]));
 			return +parseFloat(percentMax / diff).toFixed(2);
 		});
-		const final = {
-			name: rest.name,
-			percent: comparison.reduce((a, b) => a + b),
-		};
+		const final = rest;
+		final.percent = comparison.reduce((a, b) => a + b);
 		return final;
 	});
 
