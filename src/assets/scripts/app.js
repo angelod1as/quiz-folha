@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-import preState from './components/pre-state';
 import Question from './components/Question';
 import Ending from './components/Ending';
 
