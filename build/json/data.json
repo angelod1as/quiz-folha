@@ -1,59 +1,66 @@
 data({
-	"title": "me dá uma dica, melhor de sãopaulo?",
-	"description": "Neste quiz, O Melhor de sãopaulo Restaurantes, Bares e Guloseimas ajuda a responder uma das dúvidas cruciais de quem gosta de gastronomia: aonde ir hoje. O resultado será uma seleção de indicações entre todos os vencedores do especial, que completa dez anos em 2019.",
 	"questions": [
 		{
 			"id": 1,
-			"type": "number-range",
-			"question": "Relação de formalidade",
-			"checked": 0,
-			"answers": [
-				1,
-				2,
-				3,
-				4,
-				5
-			],
+			"type": "button",
+			"question": "Tipo de estabelecimento",
+			"checked": "",
+			"buttons": [
+				"Bar",
+				"Restaurante",
+				"Guloseimas"
+			]
 		},
 		{
 			"id": 2,
 			"type": "number-range",
-			"question": "Para dois",
+			"question": "Relação de formalidade",
 			"checked": 0,
-			"answers": [
+			"range": [
 				1,
-				2,
-				3,
-				4,
 				5
-			],
+			]
 		},
 		{
 			"id": 3,
 			"type": "number-range",
 			"question": "Para ir em grupo (+ de 6 pessoas)",
 			"checked": 0,
-			"answers": [
+			"range": [
 				1,
-				2,
-				3,
-				4,
 				5
-			],
+			]
 		},
 		{
 			"id": 4,
 			"type": "number-range",
 			"question": "Para ir com crianças",
 			"checked": 0,
-			"answers": [
+			"range": [
 				1,
-				2,
-				3,
-				4,
 				5
-			],
-		}
+			]
+		},
+		{
+			"id": 5,
+			"type": "number-range",
+			"question": "Para dois",
+			"checked": 0,
+			"range": [
+				1,
+				5
+			]
+		},
+		{
+			"id": 6,
+			"type": "number-range",
+			"question": "Preço",
+			"checked": 0,
+			"range": [
+				1,
+				5
+			]
+		},
 	],
 	"restaurants": [
 		{
