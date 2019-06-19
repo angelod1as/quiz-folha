@@ -83,9 +83,11 @@ const Ending = (props) => {
 	const { data, questions } = props;
 
 	const user = questions.map(quest => quest.checked);
+	const type = user.shift();
 
 	const restaurants = data
 		.filter(rest => rest.quiz === 'SIM')
+		.filter(rest => rest.type === type)
 		.map((rest) => {
 			const ret = rest;
 			ret.array = [+rest.formality, +rest.two, +rest.group, +rest.kids];

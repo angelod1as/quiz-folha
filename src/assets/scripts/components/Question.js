@@ -2,19 +2,43 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import Range from './type/Range';
+import Button from './type/Button';
 
 const Question = (props) => {
 	const { handleNextQuestion, currentQuestion, handleCheckChange } = props;
-	return (
-		<div>
-			<h2>{currentQuestion.question}</h2>
+
+	let quiz = '';
+
+	switch (currentQuestion.type) {
+	case 'number-range':
+		quiz = (
 			<Range
-				from={1}
-				to={5}
+				from={currentQuestion.range[0]}
+				to={currentQuestion.range[1]}
 				key={currentQuestion.id}
 				checked={currentQuestion.checked}
 				handleCheckChange={handleCheckChange}
 			/>
+		);
+		break;
+	case 'button':
+		quiz = (
+			<Button
+				buttons={currentQuestion.buttons}
+				key={currentQuestion.id}
+				checked={currentQuestion.checked}
+				handleCheckChange={handleCheckChange}
+			/>
+		);
+		break;
+	default:
+		quiz = '';
+		break;
+	}
+	return (
+		<div className="question">
+			<h2>{currentQuestion.question}</h2>
+			{quiz}
 			{currentQuestion.checked ?
 				<button
 					className="button"
