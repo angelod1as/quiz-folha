@@ -42,9 +42,19 @@ data({
 			]
 		},
 		{
-			"id": 2,
+			"id": 5,
 			"type": "number-range",
 			"question": "Para dois",
+			"checked": 0,
+			"range": [
+				1,
+				5
+			]
+		},
+		{
+			"id": 6,
+			"type": "number-range",
+			"question": "Preço",
 			"checked": 0,
 			"range": [
 				1,
