@@ -3,7 +3,7 @@ data({
 		{
 			"id": 1,
 			"type": "button",
-			"question": "Tipo de estabelecimento",
+			"question": "Ele é um restaurante, um bar ou um lugar para comer quitutes?",
 			"checked": "",
 			"buttons": [
 				"Bar",
@@ -14,7 +14,7 @@ data({
 		{
 			"id": 2,
 			"type": "number-range",
-			"question": "Relação de formalidade",
+			"question": "Em uma escala de boteco com copo de vidro a restaurante chique, a que tipo de lugar você quer ir hoje?",
 			"checked": 0,
 			"range": [
 				1,
@@ -24,7 +24,7 @@ data({
 		{
 			"id": 3,
 			"type": "number-range",
-			"question": "Para ir em grupo (+ de 6 pessoas)",
+			"question": "Quer ir à noite para uma comemoração especial com amigos ou família (em grupo grande)?",
 			"checked": 0,
 			"range": [
 				1,
@@ -34,7 +34,7 @@ data({
 		{
 			"id": 4,
 			"type": "number-range",
-			"question": "Para ir com crianças",
+			"question": "Quer levar crianças?",
 			"checked": 0,
 			"range": [
 				1,
@@ -44,7 +44,7 @@ data({
 		{
 			"id": 5,
 			"type": "number-range",
-			"question": "Para dois",
+			"question": "É um date e quer levar a pessoa a um lugar especial, mas não muito chique?",
 			"checked": 0,
 			"range": [
 				1,
@@ -54,7 +54,7 @@ data({
 		{
 			"id": 6,
 			"type": "number-range",
-			"question": "Preço",
+			"question": "Quer pagar quanto?",
 			"checked": 0,
 			"range": [
 				1,
