@@ -5,24 +5,24 @@
 	},
 	"extends": "airbnb",
 	"rules": {
-		"max-len": [
-			1,
-			100,
+		"indent": [
 			2,
-			{
-				"ignoreUrls": true,
-				"ignoreComments": true,
-				"ignoreRegExpLiterals": true,
-				"ignoreStrings": true,
-				"ignoreTemplateLiterals": true
-			}
+			"tab"
 		],
-		"indent": [2, "tab"],
 		"no-unused-vars": 1,
 		"no-tabs": 0,
-		"react/jsx-indent": [2, "tab"],
-		"react/jsx-indent-props": [2, "tab"],
-		"react/no-unused-state": [0],
+		"max-len": 0,
+		"react/jsx-indent": [
+			2,
+			"tab"
+		],
+		"react/jsx-indent-props": [
+			2,
+			"tab"
+		],
+		"react/no-unused-state": [
+			0
+		],
 		"react/prefer-stateless-function": [
 			1,
 			{
@@ -32,21 +32,32 @@
 		"react/jsx-filename-extension": [
 			1,
 			{
-				"extensions": [".js", ".jsx"]
+				"extensions": [
+					".js",
+					".jsx"
+				]
 			}
 		],
 		"import/no-named-as-default": false,
 		"jsx-a11y/anchor-is-valid": [
 			1,
 			{
-				"components": ["a"],
-				"aspects": ["noHref", "invalidHref", "preferButton"]
+				"components": [
+					"a"
+				],
+				"aspects": [
+					"noHref",
+					"invalidHref",
+					"preferButton"
+				]
 			}
 		],
 		"react/forbid-prop-types": [
 			1,
 			{
-				"forbid": ["class"]
+				"forbid": [
+					"class"
+				]
 			}
 		]
 	}

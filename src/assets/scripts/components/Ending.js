@@ -90,7 +90,7 @@ const Ending = (props) => {
 		.filter(rest => rest.type === type)
 		.map((rest) => {
 			const ret = rest;
-			ret.array = [+rest.formality, +rest.two, +rest.group, +rest.kids, +rest.price];
+			ret.array = [+rest.formality, +rest.two, +rest.group, +rest.kids];
 			return ret;
 		});
 

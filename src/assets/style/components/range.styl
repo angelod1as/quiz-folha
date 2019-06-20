@@ -1,0 +1,39 @@
+.range-container
+	.tip
+		margin-top: 10px
+		display: flex
+		justify-content: space-around
+		p
+			max-width: 150px
+			line-height: 1.3em
+			&:last-child
+				text-align: right
+	.range
+		position: relative
+		margin: 50px 0 0 0
+		.bgline
+			z-index: -1
+			border-bottom: 1px solid $lblue
+			position: absolute
+			top: 50%
+			left: 0
+			width: 100%
+		.range-inside
+			z-index: 10
+			display: flex
+			justify-content: space-around
+			position relative
+			.range-flex
+				display: flex
+				flex-direction: column
+			label
+				background-color: white
+				border: 1px solid $blue
+				padding: 15px 24px
+				border-radius: 50%
+				&.diff
+					border-radius: 5px
+				&.checked
+					background-color: lighten($lblue, 75%)
+				input
+					display: none

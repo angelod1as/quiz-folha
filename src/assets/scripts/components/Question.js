@@ -15,6 +15,8 @@ const Question = (props) => {
 			<Range
 				from={currentQuestion.range[0]}
 				to={currentQuestion.range[1]}
+				tip={currentQuestion.tip}
+				diff={currentQuestion.diff}
 				key={currentQuestion.id}
 				checked={currentQuestion.checked}
 				handleCheckChange={handleCheckChange}
