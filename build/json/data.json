@@ -14,12 +14,17 @@ data({
 		{
 			"id": 2,
 			"type": "number-range",
-			"question": "Em uma escala de boteco com copo de vidro a restaurante chique, a que tipo de lugar você quer ir hoje?",
+			"question": "Em uma escala de formalidade, a que tipo de lugar você quer ir hoje?",
 			"checked": 0,
 			"range": [
 				1,
 				5
-			]
+			],
+			"tip": [
+				"Menos formal",
+				"Mais formal"
+			],
+			"diff": []
 		},
 		{
 			"id": 3,
@@ -29,17 +34,27 @@ data({
 			"range": [
 				1,
 				5
-			]
+			],
+			"tip": [
+				"Poucas pessoas",
+				"Muitas pessoas"
+			],
+			"diff": []
 		},
 		{
 			"id": 4,
 			"type": "number-range",
-			"question": "Quer levar crianças?",
+			"question": "Vai levar crianças?",
 			"checked": 0,
 			"range": [
 				1,
 				5
-			]
+			],
+			"tip": [
+				"Não",
+				"Vou levar a criançada toda"
+			],
+			"diff": []
 		},
 		{
 			"id": 5,
@@ -49,17 +64,12 @@ data({
 			"range": [
 				1,
 				5
-			]
-		},
-		{
-			"id": 6,
-			"type": "number-range",
-			"question": "Quer pagar quanto?",
-			"checked": 0,
-			"range": [
-				1,
-				5
-			]
+			],
+			"tip": [
+				"não me importo tanto com o clima",
+				"quero que o lugar ajude a dar o clima"
+			],
+			"diff": []
 		},
 	],
 	"restaurants": [
