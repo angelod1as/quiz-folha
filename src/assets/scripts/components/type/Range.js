@@ -15,11 +15,11 @@ const Range = (props) => {
 	for (let i = from; i <= to; i += 1) {
 		if (hasTip) {
 			if (i === from) {
-				rangeTip.push(<p>{tip[0]}</p>);
+				rangeTip.push(<p key={i}>{tip[0]}</p>);
 			} else if (i === to) {
-				rangeTip.push(<p>{tip[1]}</p>);
+				rangeTip.push(<p key={i}>{tip[1]}</p>);
 			} else {
-				rangeTip.push(<p>&nbsp;</p>);
+				rangeTip.push(<p key={i}>&nbsp;</p>);
 			}
 		}
 

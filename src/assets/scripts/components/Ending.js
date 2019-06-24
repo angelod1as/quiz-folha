@@ -72,7 +72,7 @@ const ListItem = ({ item }) => {
 					: ''}
 
 				{hasIt(item.array[3]) ?
-					<p className="kids"><span>Para ir com criança:</span> {'\u2606'.repeat(item.array[3])}</p>
+					<p className="kids"><span>Para ir com crianças:</span> {'\u2606'.repeat(item.array[3])}</p>
 					: ''}
 			</div>
 		</div>
@@ -98,7 +98,14 @@ const Ending = (props) => {
 
 	return (
 		<div className="final">
-			<p>Baseado nas suas escolhas, você gostará desses lugares:</p>
+			<p>Você escolheu:</p>
+			<ul className="user-choices">
+				<li>Relação de formalidade: <span className="star">{'\u2605'.repeat(user[0])}</span></li>
+				<li>Para ir a dois: <span className="star">{'\u2605'.repeat(user[1])}</span></li>
+				<li>Para ir em grupo (+ de 6 pessoas): <span className="star">{'\u2605'.repeat(user[2])}</span></li>
+				<li>Para ir com crianças: <span className="star">{'\u2605'.repeat(user[3])}</span></li>
+			</ul>
+			<p>Baseado nas escolhas acima, você gostará desses lugares:</p>
 			<div className="each">
 				{sorted.map(each => (
 					<ListItem item={each} key={each.name} />
