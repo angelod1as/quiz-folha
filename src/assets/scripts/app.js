@@ -55,6 +55,7 @@ export default class App extends Component {
 								currentQuestion={questions[current]}
 								handleNextQuestion={this.handleNextQuestion}
 								handleCheckChange={this.handleCheckChange}
+								counter={[current, length]}
 							/>
 							: <Ending
 								data={data}

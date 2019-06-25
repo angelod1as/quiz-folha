@@ -5,7 +5,9 @@ import Range from './type/Range';
 import Button from './type/Button';
 
 const Question = (props) => {
-	const { handleNextQuestion, currentQuestion, handleCheckChange } = props;
+	const {
+		handleNextQuestion, currentQuestion, handleCheckChange, counter,
+	} = props;
 
 	let quiz = '';
 
@@ -39,7 +41,20 @@ const Question = (props) => {
 	}
 	return (
 		<div className="question">
-			<h2>{currentQuestion.question}</h2>
+			<h2>
+				<span className="q-counter">
+					<span>
+						{counter[0] + 1}
+					</span>
+					/
+					<span>
+						{counter[1]}
+					</span>
+				</span>
+				<span className="q-title">
+					{currentQuestion.question}
+				</span>
+			</h2>
 			{quiz}
 			{currentQuestion.checked ?
 				<button
@@ -56,6 +71,7 @@ Question.propTypes = {
 	handleNextQuestion: PropTypes.func.isRequired,
 	currentQuestion: PropTypes.object.isRequired,
 	handleCheckChange: PropTypes.func.isRequired,
+	counter: PropTypes.array.isRequired,
 };
 
 export default Question;
