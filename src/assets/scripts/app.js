@@ -42,10 +42,14 @@ export default class App extends Component {
 		return (
 			<div className="quiz">
 				<div className="title">
-					<h1>Me dá uma dica, melhor de sãopaulo?</h1>
+					<h1 className="hidden">Aonde ir hoje?</h1>
+					<figure className="title-svg">
+						<img src="../images/title.svg" alt="" />
+						<div className="line" />
+					</figure>
 					<div className="description">
-						<p>Neste quiz, <b>O Melhor de sãopaulo Restaurantes, Bares e Guloseimas</b> ajuda a responder uma das dúvidas cruciais de quem gosta de gastronomia: aonde ir hoje.</p>
-						<p>No resultado será uma seleção de indicações entre todos os vencedores do especial, que completa dez anos em 2019.</p>
+						<p><b>O Melhor de sãopaulo Restaurantes, Bares e Guloseimas</b> ajuda a responder uma das dúvidas cruciais de quem gosta de gastronomia.</p>
+						<p>No resultado será exibida uma seleção de indicações entre todos os vencedores do especial, que completa dez anos em 2019.</p>
 					</div>
 				</div>
 				<div className="holder">

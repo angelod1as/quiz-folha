@@ -1,36 +1,39 @@
-$border = rgba($lgray, .3)
+$border = rgba($color, .3)
 .user-choices
 	font-size: .9em
 	margin: 20px 0
 	padding-bottom: 20px
 	border-bottom: 1px solid $border
 	.star
-		color: $lgray
+		color: $color
 
 .restaurant
 	margin: 20px 0
 	padding-bottom: 20px
 	border-bottom: 1px solid $border
+	text-align: center
 
 	.name
 		font-weight: bold
 		font-size: 1.1em
-		color: $blue
+		color: $color
 
 	.type
 		font-size: .9em
-		color: $lgray
+		color: $color
 
 	.item-container
 		display: flex
 		margin-bottom: 10px
+		align-items: center
+		justify-content: center
 		.price
 			font-size: .9em
-			color: $lgray
-			margin-right: 30px
+			color: $color
 		.stars
 			font-size: .9em
-			color: $lgray
+			color: $color
+			margin-left: 30px
 
 	.photo
 		margin: 20px 0
@@ -39,7 +42,7 @@ $border = rgba($lgray, .3)
 		margin-bottom: 10px
 		span
 			font-weight: bold
-			color: $blue
+			color: $color
 
 	.desc
 		margin: 20px 0
@@ -52,6 +55,7 @@ $border = rgba($lgray, .3)
 
 	.quiz-container
 		font-size: .9em
+		color: $color
 		span
 			color: $gray
 

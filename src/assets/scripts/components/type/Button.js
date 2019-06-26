@@ -5,7 +5,7 @@ const Button = (props) => {
 	const { buttons, checked, handleCheckChange } = props;
 
 	return (
-		<form className="button">
+		<form className="buttons">
 			<div className="button-inside">
 				{buttons.map(btn => (
 					<label

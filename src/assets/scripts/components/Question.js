@@ -40,17 +40,17 @@ const Question = (props) => {
 		break;
 	}
 	return (
-		<div className="question">
-			<h2>
-				<span className="q-counter">
-					<span>
-						{counter[0] + 1}
-					</span>
-					/
-					<span>
-						{counter[1]}
-					</span>
+		<div className="question-container">
+			<span className="q-counter">
+				<span>
+					{counter[0] + 1}
 				</span>
+				/
+				<span>
+					{counter[1]}
+				</span>
+			</span>
+			<h2 className="question">
 				<span className="q-title">
 					{currentQuestion.question}
 				</span>
@@ -60,7 +60,7 @@ const Question = (props) => {
 				<button
 					className="button"
 					onClick={() => handleNextQuestion()}
-				>Próxima!
+				>Próxima <i className="arrow" />
 				</button>
 				: ''}
 		</div>
