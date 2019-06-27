@@ -80,7 +80,7 @@ const ListItem = ({ item }) => {
 };
 
 const Ending = (props) => {
-	const { data, questions } = props;
+	const { data, questions, resetState } = props;
 
 	const user = questions.map(quest => quest.checked);
 	const type = user.shift();
@@ -113,7 +113,7 @@ const Ending = (props) => {
 			</div>
 			<button
 				className="reset"
-				onClick={() => window.location.reload()}
+				onClick={() => resetState()}
 			>Reiniciar
 			</button>
 		</div>
@@ -123,6 +123,7 @@ const Ending = (props) => {
 Ending.propTypes = {
 	data: PropTypes.array.isRequired,
 	questions: PropTypes.array.isRequired,
+	resetState: PropTypes.func.isRequired,
 };
 
 ListItem.propTypes = {

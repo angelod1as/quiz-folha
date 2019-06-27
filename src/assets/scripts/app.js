@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import _ from 'lodash';
 
 import Question from './components/Question';
 import Ending from './components/Ending';
@@ -7,19 +8,21 @@ import Ending from './components/Ending';
 export default class App extends Component {
 	constructor(props) {
 		super(props);
-		// this.state = preState(this.props.data.restaurants);
-		this.state = {
+		this.initialState = {
 			data: this.props.data.restaurants,
 			questions: this.props.data.questions,
 		};
 		// engrenagens
-		this.state.cogs = {
+		this.initialState.cogs = {
 			current: 0,
-			length: this.state.questions.length,
+			length: this.initialState.questions.length,
 		};
+
+		this.state = _.cloneDeep(this.initialState);
 
 		this.handleNextQuestion = this.handleNextQuestion.bind(this);
 		this.handleCheckChange = this.handleCheckChange.bind(this);
+		this.resetState = this.resetState.bind(this);
 	}
 
 	handleNextQuestion() {
@@ -35,8 +38,14 @@ export default class App extends Component {
 		this.setState(state);
 	}
 
+	resetState() {
+		const { initialState } = this;
+		this.setState(initialState);
+	}
+
 	render() {
-		const { questions, cogs, data } = this.state;
+		const { state } = this;
+		const { questions, cogs, data } = state;
 		const { current, length } = cogs;
 
 		return (
@@ -64,6 +73,8 @@ export default class App extends Component {
 							: <Ending
 								data={data}
 								questions={questions}
+								state={state}
+								resetState={this.resetState}
 							/>
 					}
 				</div>
