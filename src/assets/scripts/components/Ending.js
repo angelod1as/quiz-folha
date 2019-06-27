@@ -83,7 +83,7 @@ const ListItem = ({ item }) => {
 
 				{hasIt(item.array[1]) ?
 					<div className="points">
-						<p>Para ir em grupo (+ de 6 pessoas)</p>
+						<p>Para ir em grupo <span>(+ de 6 pessoas)</span></p>
 						<span className="circle">
 							{'\u25CF'.repeat(item.array[1])}
 							{'\u25CB'.repeat(5 - item.array[1])}
@@ -147,7 +147,7 @@ const Ending = (props) => {
 					</span>
 				</div>
 				<div className="points">
-					<p>Para ir em grupo (+ de 6 pessoas)</p>
+					<p>Para ir em grupo <span>(+ de 6 pessoas)</span></p>
 					<span className="circle">
 						{'\u25CF'.repeat(user[1])}
 						{'\u25CB'.repeat(5 - user[1])}

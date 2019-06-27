@@ -55,8 +55,8 @@ export default class App extends Component {
 					<div className="title-img">
 						<figure className="title-svg">
 							{ current < length
-								? <img src="../images/title.svg" alt="Aonde ir hoje?" />
-								: <img src="../images/ending.svg" alt="Indicações" className="title-ending" />
+								? <img src="./images/title.svg" alt="Aonde ir hoje?" />
+								: <img src="./images/ending.svg" alt="Indicações" className="title-ending" />
 							}
 						</figure>
 						<div className="line" />
