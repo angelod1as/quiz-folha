@@ -1,4 +1,8 @@
 $border = rgba($color, .3)
+
+// .title-ending
+// 	max-width: 350px
+
 .user-choices
 	font-size: .9em
 	margin: 20px 0
@@ -41,6 +45,7 @@ $border = rgba($color, .3)
 	.compatibility
 		margin-bottom: 10px
 		span
+			margin-right: 5px
 			font-weight: bold
 			color: $color
 
@@ -50,14 +55,22 @@ $border = rgba($color, .3)
 	.prize-container
 		margin-bottom: 10px
 		span
+			margin-right: 10px
 			font-size: .9em
-			font-weight: bold
+			color: $color
 
 	.quiz-container
 		font-size: .9em
 		color: $color
-		span
+		p
 			color: $gray
 
+.circle
+	color: $color
+	font-size: 1.3em
+	margin: -2px 0 0 10px
 
-
+.points
+	display: flex
+	align-items: center
+	justify-content: center

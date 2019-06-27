@@ -36,7 +36,10 @@ const ListItem = ({ item }) => {
 					: ''}
 			</div>
 
-			<p className="compatibility"><span>{item.percent.toString().replace('.', ',')}%</span> de compatibilidade</p>
+			<p className="compatibility">
+				<span>{item.percent.toString().replace('.', ',')}%</span>
+				de compatibilidade
+			</p>
 
 			{hasIt(item.photo) ?
 				<figure className="photo">
@@ -50,29 +53,59 @@ const ListItem = ({ item }) => {
 
 			<div className="prize-container">
 				{hasIt(item.prize) ?
-					<p className="prize"><span>Prêmios do Júri:</span> {item.prize}</p>
+					<p className="prize">
+						<span>Prêmio(s) do Júri</span>
+						{item.prize}
+					</p>
 					: ''}
 
 				{hasIt(item.datafolha) ?
-					<p className="datafolha"><span>Prêmios Datafolha:</span> {item.datafolha}</p>
+					<p className="datafolha">
+						<span>Prêmio(s) Datafolha</span>
+						{item.datafolha}
+					</p>
 					: ''}
 			</div>
 
 			<div className="quiz-container">
 				{hasIt(item.array[0]) ?
-					<p className="formality"><span>Relação de formalidade:</span> {'\u2606'.repeat(item.array[0])}</p>
+					<div className="points">
+						<p>Relação de formalidade</p>
+						<span className="circle">
+							{'\u25CF'.repeat(item.array[0])}
+							{'\u25CB'.repeat(5 - item.array[0])}
+						</span>
+					</div>
 					: ''}
 
 				{hasIt(item.array[1]) ?
-					<p className="two"><span>Para ir a dois:</span> {'\u2606'.repeat(item.array[1])}</p>
+					<div className="points">
+						<p>Para ir a dois</p>
+						<span className="circle">
+							{'\u25CF'.repeat(item.array[1])}
+							{'\u25CB'.repeat(5 - item.array[1])}
+						</span>
+					</div>
 					: ''}
 
 				{hasIt(item.array[2]) ?
-					<p className="group"><span>Para ir em grupo (+ de 6 pessoas):</span> {'\u2606'.repeat(item.array[2])}</p>
+					<div className="points">
+						<p>Para ir em grupo (+ de 6 pessoas)</p>
+						<span className="circle">
+							{'\u25CF'.repeat(item.array[2])}
+							{'\u25CB'.repeat(5 - item.array[2])}
+						</span>
+					</div>
 					: ''}
 
 				{hasIt(item.array[3]) ?
-					<p className="kids"><span>Para ir com crianças:</span> {'\u2606'.repeat(item.array[3])}</p>
+					<div className="points">
+						<p>Para ir com crianças</p>
+						<span className="circle">
+							{'\u25CF'.repeat(item.array[3])}
+							{'\u25CB'.repeat(5 - item.array[3])}
+						</span>
+					</div>
 					: ''}
 			</div>
 		</div>
@@ -99,12 +132,37 @@ const Ending = (props) => {
 	return (
 		<div className="final">
 			<p>Você escolheu:</p>
-			<ul className="user-choices">
-				<li>Relação de formalidade: <span className="star">{'\u2605'.repeat(user[0])}</span></li>
-				<li>Para ir a dois: <span className="star">{'\u2605'.repeat(user[1])}</span></li>
-				<li>Para ir em grupo (+ de 6 pessoas): <span className="star">{'\u2605'.repeat(user[2])}</span></li>
-				<li>Para ir com crianças: <span className="star">{'\u2605'.repeat(user[3])}</span></li>
-			</ul>
+			<div className="user-choices">
+				<div className="points">
+					<p>Relação de formalidade</p>
+					<span className="circle">
+						{'\u25CF'.repeat(user[0])}
+						{'\u25CB'.repeat(5 - user[0])}
+					</span>
+				</div>
+				<div className="points">
+					<p>Para ir a dois</p>
+					<span className="circle">
+						{'\u25CF'.repeat(user[1])}
+						{'\u25CB'.repeat(5 - user[1])}
+					</span>
+				</div>
+				<div className="points">
+					<p>Para ir em grupo (+ de 6 pessoas)</p>
+					<span className="circle">
+						{'\u25CF'.repeat(user[2])}
+						{'\u25CB'.repeat(5 - user[2])}
+					</span>
+				</div>
+				<div className="points">
+					<p>Para ir com crianças</p>
+					<span className="circle">
+						{'\u25CF'.repeat(user[3])}
+						{'\u25CB'.repeat(5 - user[3])}
+					</span>
+				</div>
+			</div>
+
 			<p>Baseado nas escolhas acima, você gostará desses lugares:</p>
 			<div className="each">
 				{sorted.map(each => (
