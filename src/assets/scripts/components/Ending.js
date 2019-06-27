@@ -80,7 +80,7 @@ const ListItem = ({ item }) => {
 
 				{hasIt(item.array[1]) ?
 					<div className="points">
-						<p>Para ir a dois</p>
+						<p>Para ir em grupo (+ de 6 pessoas)</p>
 						<span className="circle">
 							{'\u25CF'.repeat(item.array[1])}
 							{'\u25CB'.repeat(5 - item.array[1])}
@@ -90,7 +90,7 @@ const ListItem = ({ item }) => {
 
 				{hasIt(item.array[2]) ?
 					<div className="points">
-						<p>Para ir em grupo (+ de 6 pessoas)</p>
+						<p>Para ir com crianças</p>
 						<span className="circle">
 							{'\u25CF'.repeat(item.array[2])}
 							{'\u25CB'.repeat(5 - item.array[2])}
@@ -100,7 +100,7 @@ const ListItem = ({ item }) => {
 
 				{hasIt(item.array[3]) ?
 					<div className="points">
-						<p>Para ir com crianças</p>
+						<p>Para ir a dois</p>
 						<span className="circle">
 							{'\u25CF'.repeat(item.array[3])}
 							{'\u25CB'.repeat(5 - item.array[3])}
@@ -123,11 +123,14 @@ const Ending = (props) => {
 		.filter(rest => rest.type === type)
 		.map((rest) => {
 			const ret = rest;
-			ret.array = [+rest.formality, +rest.two, +rest.group, +rest.kids];
+			ret.array = [+rest.formality, +rest.group, +rest.kids, +rest.two];
 			return ret;
 		});
 
 	const sorted = sortRest(user, restaurants).slice(0, 5);
+
+	console.log(user);
+	console.log(sorted);
 
 	return (
 		<div className="final">
@@ -141,21 +144,21 @@ const Ending = (props) => {
 					</span>
 				</div>
 				<div className="points">
-					<p>Para ir a dois</p>
+					<p>Para ir em grupo (+ de 6 pessoas)</p>
 					<span className="circle">
 						{'\u25CF'.repeat(user[1])}
 						{'\u25CB'.repeat(5 - user[1])}
 					</span>
 				</div>
 				<div className="points">
-					<p>Para ir em grupo (+ de 6 pessoas)</p>
+					<p>Para ir com crianças</p>
 					<span className="circle">
 						{'\u25CF'.repeat(user[2])}
 						{'\u25CB'.repeat(5 - user[2])}
 					</span>
 				</div>
 				<div className="points">
-					<p>Para ir com crianças</p>
+					<p>Para ir a dois</p>
 					<span className="circle">
 						{'\u25CF'.repeat(user[3])}
 						{'\u25CB'.repeat(5 - user[3])}
