@@ -132,9 +132,6 @@ const Ending = (props) => {
 
 	const sorted = sortRest(user, restaurants).slice(0, 5);
 
-	console.log(user);
-	console.log(sorted);
-
 	return (
 		<div className="final">
 			<p>Você escolheu:</p>
