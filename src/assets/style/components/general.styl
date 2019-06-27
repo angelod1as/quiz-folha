@@ -42,19 +42,22 @@ a
 	// border-bottom: 1px solid $border
 	padding-bottom: 20px
 
-.title-svg
+
+.title-img
 	text-align: center
 	margin-bottom: 20px
 	position: relative
-	img
-		fill: $color
-		max-width: 300px
-		max-height: 60px
-		// width: 70%
+	.title-svg
+		height: 50px
+		max-width: 350px
 		margin: 0 auto
-		padding: 0 10px
-		z-index: 10
 		background-color: white
+	img
+		height: 100%
+		width: 100%
+		fill: $color
+		margin: 0 auto
+		z-index: 10
 	.line
 		z-index: -1
 		border: .7px solid $color
@@ -83,7 +86,7 @@ button
 		display: inline-block;
 		padding: 6px;
 		transform: rotate(-45deg);
-		&:hover
-			border-color: #333
 	&:hover
 		color: #333
+		.arrow
+			border-color: #333

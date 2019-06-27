@@ -32,7 +32,10 @@ const ListItem = ({ item }) => {
 					: ''}
 
 				{hasIt(item.stars) ?
-					<p className="stars">{'\u2605'.repeat(item.stars)}</p>
+					<p className="stars">
+						{'\u2605'.repeat(item.stars)}
+						{'\u2606'.repeat(5 - item.stars)}
+					</p>
 					: ''}
 			</div>
 

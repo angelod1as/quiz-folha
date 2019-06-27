@@ -52,13 +52,15 @@ export default class App extends Component {
 			<div className="quiz">
 				<div className="title">
 					<h1 className="hidden">Aonde ir hoje?</h1>
-					<figure className="title-svg">
-						{ current < length
-							? <img src="../images/title.svg" alt="Aonde ir hoje?" />
-							: <img src="../images/ending.svg" alt="Indicações" className="title-ending" />
-						}
+					<div className="title-img">
+						<figure className="title-svg">
+							{ current < length
+								? <img src="../images/title.svg" alt="Aonde ir hoje?" />
+								: <img src="../images/ending.svg" alt="Indicações" className="title-ending" />
+							}
+						</figure>
 						<div className="line" />
-					</figure>
+					</div>
 					<div className="description">
 						<p><b>O Melhor de sãopaulo Restaurantes, Bares e Guloseimas</b> ajuda a responder uma das dúvidas cruciais de quem gosta de gastronomia.</p>
 						<p>No resultado será exibida uma seleção de indicações entre todos os vencedores do especial, que completa dez anos em 2019.</p>
